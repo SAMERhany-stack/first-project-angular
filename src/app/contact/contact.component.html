@@ -1,0 +1,75 @@
+<div class="about">
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="contabout text-center">
+            <h1>CONTACT SECTION</h1>
+            <div class="icon4">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 pt-2">
+        <div class="col-md-12 d-flex flex-column w-50 m-auto">
+          <div class="input">
+            <div class="userName">
+              <input
+                type="text"
+                placeholder="userName
+              "
+                [(ngModel)]="text"
+              />
+            </div>
+            @if (text !== null && text !=="") {
+            <div class="alertName">
+              <span>userName:</span>
+            </div>
+            }
+            <div class="age">
+              <input
+                type="number"
+                placeholder="userAge        
+              "
+                [(ngModel)]="number"
+              />
+            </div>
+            @if (number !== null ) {
+            <div class="alertAge">
+              <span>userAge:</span>
+            </div>
+            }
+            <div class="email">
+              <input type="email" placeholder="userEmail" [(ngModel)]="email" />
+            </div>
+            @if (email !== null && email !=="") {
+            <div class="alertEmail">
+              <span>userEmail:</span>
+            </div>
+            }
+            <div class="password">
+              <input
+                type="password"
+                placeholder="userPassword"
+                [(ngModel)]="password"
+              />
+            </div>
+            @if (password !== null && password !=="") {
+            <div class="alertPassword">
+              <span>userPassword:</span>
+            </div>
+            }
+          </div>
+          <div>
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn px-4 text-white" type="button">
+                send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

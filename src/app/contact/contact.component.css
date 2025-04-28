@@ -1,0 +1,66 @@
+.about {
+  height: 87vh;
+}
+.about button {
+  background-color: #1abc9c;
+}
+.contabout {
+  margin-top: 120px;
+}
+.icon4 i {
+  color: black;
+}
+.icon4 {
+  position: relative;
+}
+.icon4::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  top: 12px;
+  left: 530px;
+}
+.icon4::before {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background-color: black;
+  position: absolute;
+  top: 12px;
+  right: 530px;
+}
+.about input {
+  height: 50px;
+  border: 1px white solid;
+  margin-bottom: 45px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.058);
+  border-radius: 5px;
+  width: 700px;
+}
+
+.alertName {
+  position: absolute;
+  bottom: 550px;
+  left: 450px;
+  color: #1abc9c;
+}
+.alertAge {
+  position: absolute;
+  bottom: 450px;
+  left: 450px;
+  color: #1abc9c;
+}
+.alertEmail {
+  position: absolute;
+  bottom: 350px;
+  left: 450px;
+  color: #1abc9c;
+}
+.alertPassword {
+  position: absolute;
+  bottom: 250px;
+  left: 450px;
+  color: #1abc9c;
+}
